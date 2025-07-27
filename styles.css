@@ -1,0 +1,67 @@
+body {
+    background-image: url('https://www.shutterstock.com/image-illustration/abstract-background-triangulated-texture-design-600nw-1032856252.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: beige; /* Color de respaldo */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.left-container {
+    display: left;
+    justify-content: unset;
+    align-items: unset;
+    min-height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+
+button {
+    color : black;
+    background-color: lightgray;
+    padding: 10px 20px;
+    font-family: monospace;
+    border: 2px solid gray;
+    border-radius: 50px;
+    box-shadow: inset 4px 4px 10px gray,
+                inset -4px -4px 10px white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.4s ease, box-shadow 0.2s ease;
+    
+
+}
+
+button:hover{
+    box-shadow: 0 0 16px gray, 0 0 32px gray;
+    transform: scale(1.08);
+    background-color: #e0e0e0;
+                
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+
+.boton-secundario {
+    color: rgb(51, 48, 48);
+    background-color: #0077b6;
+    padding: 10px 24px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    font-size: 17px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.botones{
+    display: flex;
+    gap: 24px; /* Espacio entre los botones */
+}
